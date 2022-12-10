@@ -88,11 +88,12 @@ body {
     grid-template-columns: 33.33% 33.33% 33.33%;
     margin-left: auto;
     margin-right: auto;
-    width: 1200px;    
+    width: 1230px;  
+      
 }
-.row2 .anh1, .anh2, .anh3{
-    padding: auto;
-    width: 100%;
+
+.row2 img{
+    padding: 12px;
 }
 
 /*==output==*/
