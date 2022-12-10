@@ -27,12 +27,13 @@ img {
 }
 
 .out {
-    
+
     list-style-type: none;
 }
 
 .text1,
-.text2 {
-    /*margin-left: 110px;*/
-    
+.text2,
+.out {
+    margin-left: 95px;
+
 }
