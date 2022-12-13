@@ -31,9 +31,14 @@ img {
     list-style-type: none;
 }
 
-.text1,
-.text2,
-.out {
-    margin-left: 95px;
+.row1 img{
+    width: 100%;
+    grid-template-columns: 33.33%;
+}
+.row1{
+   
 
+}
+.ndbanner{
+ 
 }
