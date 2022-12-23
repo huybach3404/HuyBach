@@ -1,0 +1,227 @@
+
+.hinhic{
+    width:7%;
+    height: 7%;
+    margin-left: 605px;
+}
+
+.khungnhin{
+    position: relative;
+    width:100%;
+    margin-top:0 ;
+}
+
+.khungnhin .noi_dung{
+    width: 100%;
+    height: 450px;
+    background: #000;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: reveal 1s ease-in-out forwards;
+    margin-top: 0px;
+}
+
+.khungnhin .noi_dung img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.khungnhin .noi_dung::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1;
+    animation: reveal 1s reverse forwards;
+    animation-delay: 3s;
+    transform-origin: right;
+}
+
+@keyframes reveal{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.khungnhin .noi_dung h2{
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    margin: 0;
+    padding: 0px;
+    color:#fff;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 2;
+    box-shadow: 0 10px 15px rgb(249, 249, 249);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: reveal 1s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.container .noi_dung h2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    animation: reveal 1s reverse forwards;
+    animation-delay: 2s;
+    transform-origin: right;
+}
+.cadao{
+	margin-top: 20px;
+    margin-left: 0px;	
+}
+.cadao .cau6{
+    margin-left: 500px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cadao .cau8{
+    margin-left: 400px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cacmonan{
+    margin-left:20px;
+    text-align: justify;
+}
+
+
+.miquang{
+    display: grid;
+    grid-template-columns: 750px 450px;
+    margin-top: 20px;
+    width: 80%;
+    height: 50px;
+    margin-left: 125px;
+}
+.anhmiquang{
+    width:700px;
+    height: 370px;
+}
+.noidung_miquang{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bomotnang{
+    display: grid;
+    grid-template-columns: 500px 650px;
+    margin-top: 400px;
+    width: 80%;
+    height: 50px;
+    margin-left: 125px;
+}
+.anhbomotnang{
+    width:650px;
+    height: 370px;
+    margin-left: 50px;
+}
+.noidung_bomotnang{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banhxeo{
+    display: grid;
+    grid-template-columns: 750px 450px;
+    margin-top: 370px;
+    width: 80%;
+    height: 50px;
+    margin-left: 125px;
+}
+.anhbanhxeo{
+    width:700px;
+    height: 350px;
+    margin-top: 10px;
+}
+.noidung_banhxeo{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.buncua{
+    display: grid;
+    grid-template-columns: 500px 750px;
+    margin-top: 180px;
+    width: 80%;
+    height: 500px;
+    margin-left: 125px;
+}
+.noidung_buncua{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 200px;
+}
+.anhbuncua{
+    width:650px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.comhen{
+    display: grid;
+    grid-template-columns: 750px 450px;
+    margin-top: 50px;
+    width: 80%;
+    height: 50px;
+    margin-left: 125px;
+}
+.anhcomhen{
+    width:700px;
+    height: 400px;
+    margin-top: 10px;
+}
+.noidung_comhen{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banhit{
+    display: grid;
+    grid-template-columns: 500px 750px;
+    margin-top: 250px;
+    width: 80%;
+    height: 550px;
+    margin-left: 125px;
+}
+.noidung_banhit{
+    border-left: #000;
+    text-align: justify;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 170px;
+}
+.anhbanhit{
+    width:650px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 200px;
+    
+}
+
+
+
+

@@ -1,0 +1,32 @@
+/*body {
+   padding: 2%;
+   text-align: center;
+ }*/
+#slideshow {
+   overflow: hidden;
+   height: 510px;
+   width: 1260px;
+   margin: 0 auto;
+ }
+.slide-wrapper {
+   width: 5040px;
+   -webkit-animation: slide 8s ease infinite;
+ }
+.slide {
+   float: left;
+   height: 510px;
+   width: 1260px;
+}
+
+.slide img{
+   height: 510px;
+  width: 1260px;
+   image-rendering: pixelated;
+}
+@-webkit-keyframes slide {
+   20% {margin-left: 0px;}
+   30% {margin-left: -1260px;}
+   50% {margin-left: -1260px;}
+   60% {margin-left: -2520px;}
+   80% {margin-left: -2520px;}
+}

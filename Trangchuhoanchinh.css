@@ -1,0 +1,638 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+}
+hr{
+	margin-left: 130px;
+}
+
+.khunglogo{
+	background-color: white;
+	height: 130px;
+}
+ /*.khunglogo p{
+ 	top: 20px;
+	position: relative;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+	font-family: monospace;
+ }*/
+
+ .khunglogo img{
+ 	height: 130px;
+ 	width: 200px;
+ 	left: 540px;
+	position: relative;
+ }
+
+
+
+ 
+.phanchia {
+   width: 100%;
+   height: 80px;
+   overflow: auto;
+}
+
+
+#timkiem {
+   width: 40%;
+   height: 80px;
+   background-color: white;
+   float: left;
+   text-transform: uppercase;
+   font-weight: bold;
+   color: black;
+}
+
+.khungtimkiem {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 30px;
+}
+
+.khungtimkiem .input-box{
+	position: relative;
+	background: white;
+	padding: 14px;
+	border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+	width: 200px;
+	height: 11px;
+	border:3px solid #222222;
+}
+
+.khungtimkiem .input-box input{
+	width: 100%;
+	background: transparent;
+	top:-5px;
+	position: relative;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 17px;
+}
+
+.khungtimkiem .input-box button {
+  float: right;
+  top:-37px;
+  right: -85px;
+  position: relative;
+  background: #222222;
+  font-size: 23px;
+  cursor: pointer;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 3px solid #222222;
+  width: 70px;
+  height: 46px;
+  color: white;
+  font-family: monospace;
+}
+ 
+.khungtimkiem .input-box button:hover {
+  background: white;
+  color: #222222;
+}
+
+
+
+#menu {
+ width: 60%;
+ height: 80px;
+ background-color: white;
+ float: right;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+#menu ul a {
+	padding: 10px 20px;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	font-family: monospace;
+	border-bottom: 1px solid black;
+}
+
+#menu ul{
+	display: flex;
+	padding-left: 90px;
+}
+
+#menu ul a:hover{
+	transform: scale(0.9);
+    transition: all .2s ease;
+    background-color: black;
+    color: white;
+}
+
+/*menu*/
+.container{
+  max-width: 2000px;
+  margin: 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+
+#main-menu ul.sub-menu{
+	position: absolute;
+	padding: 5px 5px;
+	list-style: none;
+	width: 200px;
+	border: 1px solid black; /*boder khung*/
+	display: none; /*ẩn sub-menu*/
+}
+
+#main-menu li:hover>ul.sub-menu{ /*hover chuột xuất hiện menu*/
+	display: block;
+}
+
+#main-menu ul.sub-menu a{
+	padding: 8px 15px;
+	border-bottom: 1px solid black;
+	left: 0; /*để làm việc với cấp 3 để ko ảnh hưởng menu c2*/
+}
+
+#main-menu ul.sub-menu li:hover>a{ /*hover chuột sáng border lên*/
+	border-bottom: 1px solid black;
+}
+
+#main-menu ul.sub-menu li:last-child a{
+	border: none;
+}
+
+
+/*menu cap 3*/
+#main-menu ul.sub-menu ul.sub-menu{
+	left: 212px;
+	top: 43px;
+}
+
+
+
+
+
+.khungslide{
+	width: 100%;
+	height:510px;
+	background-color: #000000;
+}
+
+.khunggioithieu{
+	width: 100%;
+	height:200px;
+	background-color: #EEEEEE;
+}
+
+.khunggioithieu pre{
+	font-size: 35px;
+	font-family: monospace;
+	color: black;
+	padding-top: 50px;
+	padding-left: 400px;
+}
+
+.khungden{
+	height:60px;
+	width: 100%;
+	background-color: #000000;
+}
+
+.khungden p{
+	text-align: center;  
+	font-family: monospace;
+	color: white;
+	top: 8px;
+	position: relative;
+	font-size: 40px;
+}
+
+.khunganhchay{
+	width: 100%;
+	height:400px;
+	background-color: #000000;
+}
+
+.khunganhchay img{
+	height: 400px;
+    width: 260px;
+    image-rendering: pixelated;
+}
+
+
+.khungchuchay{
+	width: 100%;
+	height:50px;
+	background-color: #000000;
+}
+
+.khungchuchay p{ 
+	font-family: monospace;
+	color: white;
+	padding-top: 14px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.khunganh{
+	height: 750px;
+	width: 100%;
+	background-color:#777777;
+}
+
+.khunganh1 {
+	height: 640px;
+    width: 35%;
+	border-radius: 5% 5% 5% 5%;
+    top: 50px;
+    left: 80px;
+    position: relative;
+    background-image: url('./anh/anhmonan5mo.jpg');
+	background-size: 100% 100%;
+}
+
+.khunganh1 img{
+	height: 85%;
+    width: 80%;
+    border:1.5px solid white;
+    margin-top: 40px;
+    margin-left: 40px;
+    image-rendering: pixelated;
+}
+
+.khunganh1 img:hover {
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+.khunganh2{
+	height: 300px;
+	width: 50%;
+	border-radius: 5% 5% 5% 5%;
+    top: -590px;
+    left: 570px;
+    position: relative;
+    background-image: url('./anh/anhmonan2mo.jpg');
+	background-size: 100% 100%;
+}
+
+.khunganh2 img{
+	height: 70%;
+    width: 85%;
+    border:1.5px solid white;
+    margin-top: 40px;
+    margin-left: 50px;
+    image-rendering: pixelated;
+}
+
+.khunganh2 img:hover {
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+.khunganh3{
+	height: 300px;
+	width: 50%;
+	border-radius: 5% 5% 5% 5%;
+    top: -590px;
+    left: 570px;
+    position: relative;
+    background-image: url('./anh/anhmonan12mo.jpg');
+	background-size: 100% 100%;
+}
+
+.khunganh3 img{
+	height: 70%;
+    width: 85%;
+    border:1.5px solid white;
+    margin-top: 40px;
+    margin-left: 50px;
+    image-rendering: pixelated;
+}
+
+.khunganh3 img:hover {
+    transform: scale(1.05);
+    transition: all .2s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.anhbamien{
+	height:500px;
+	background-color: #444444;
+	display: flex;
+} 
+
+.mienbac{
+	height:500px;
+	width: 33.33%;
+	background-color: #444444;
+	border-right: 1px solid white;
+}
+
+.mientrung{
+	height:500px;
+	width: 33.33%;
+	background-color: #444444;
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+}
+
+.miennam{
+	height:500px;
+	width: 33.33%;
+	background-color: #444444;
+	border-left: 1px solid white;
+}
+
+.anhbamien img{
+	height: 75%;
+	width: 90%;
+	margin-left: 20px; 
+	margin-top:22.5px;
+    image-rendering: pixelated;
+}
+
+.anhbamien img:hover{
+	transform: scale(0.95);
+    transition: all .2s ease;
+}
+
+.anhbamien pre{
+	margin-top:20px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+.khungcuoi{
+	height:400px;
+	background-color: #222222;
+	display: flex;
+}
+.chungtoi{
+	width: 25%;
+	height:400px;
+}
+.chungtoi h1{
+ 	padding-top: 80px;
+ 	padding-bottom: 20px;
+ 	padding-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+	font-family: monospace;
+}
+
+.chungtoi p {
+ 	text-align: left;
+ 	padding-left: 30px;
+ 	padding-top: 13px;
+	font-size: 18px;
+	font-family: monospace;
+	color:white;
+	display: flex;
+ }
+
+.mangxahoi{
+	width: 25%;
+	height:400px;
+}
+
+.mangxahoi h1{
+ 	padding-top: 80px;
+ 	padding-bottom: 20px;
+ 	padding-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+	font-family: monospace;
+}
+
+.mangxahoi a {
+ 	text-align: left;
+ 	padding-left: 30px;
+ 	padding-top: 13px;
+	font-size: 18px;
+	font-family: monospace;
+	color:white;
+	display: flex;
+ }
+.mangxahoi img{
+	left: 6px;
+	position: relative;
+}
+.noibat{
+	width: 25%;
+	height:400px;
+}
+
+.noibat h1{
+ 	padding-top: 80px;
+ 	padding-bottom: 20px;
+ 	padding-left: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	color:white;
+	font-family: monospace;
+ }
+
+.noibat a {
+ 	text-align: left;
+ 	padding-left: 30px;
+ 	padding-top: 13px;
+	font-size: 18px;
+	font-family: monospace;
+	color:white;
+	display: flex;
+ }
+
+.dangki{
+	width: 25%;
+	height:400px;
+}
+
+.dangki p{
+ 	padding-top: 80px;
+ 	padding-bottom: 20px;
+ 	padding-left: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color:white;
+	font-family: monospace;
+ }
+
+.hoptimkiem {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-top: 10px;
+ 	padding-left: 30px;
+}
+
+.hoptimkiem .hopnhap{
+	position: relative;
+	background-color: #222222;
+	padding: 15px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	width: 160px;
+	height: 10px;
+	border: 2px solid white;
+}
+
+.hoptimkiem .hopnhap input{
+	width: 100%;
+	background: transparent;
+	padding-right: 50px;
+	top: -5px;
+	position: relative;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+}
+
+.hoptimkiem .hopnhap button {
+  float: right;
+  top:-37px;
+  right: -35px;
+  position: relative;
+  background: white;
+  font-size: 23px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid white;
+  width: 70px;
+  height: 45px;
+  color: #222222;
+  font-family: monospace;
+}
+ 
+.hoptimkiem .hopnhap button:hover {
+  background: #222222;
+  color: white;
+}
+
+.dangki pre{
+	padding-top: 20px;
+ 	padding-left: 30px;
+	font-size: 15px;
+	color:white;
+	font-family: monospace;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.khungchot{
+	height:200px;
+	width: 100%;
+	background-color: #111111;
+	display: flex;
+}
+
+.khunglogo2{
+	width: 60%;
+	height:100%;
+	float: right;
+}
+
+.khunglogo2 img{
+	width: 150px;
+	height:80px;
+	left: 10px;
+	top: 70px;
+	position: relative;
+	border-radius: 30%;
+}
+
+.khungbanquyen{
+	width: 40%;
+	height:100%;
+	float: left;
+}
+
+.khungbanquyen p{
+	margin-left: 100px;
+	margin-top: 100px;
+	font-size: 13px;
+	font-family: monospace;
+	color: #888888;
+}
+
+
+
+
+
+
+
+
+
+

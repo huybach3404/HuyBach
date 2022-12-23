@@ -1,0 +1,95 @@
+.active {
+    background-color: #222222 !important;
+}
+.active a {
+    color: white !important;
+}
+.ctn-container {
+    padding: 0 10%;
+}
+.left-content {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.blog, .latest-new {
+    background-color: floralwhite;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.blog .title-blog {
+    display: block;
+    width: 100%;
+}
+
+.title-blog hr{
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+.blog ul .list-blog, .blog ul .list-blog a{
+    color: black;
+}
+
+.blog ul, .blog ul li, .latest-new ul, .latest-new ul li{
+    padding: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: monospace;
+}
+
+.list-blog a:hover{
+    transform: scale(0.9);
+    transition: all .2s ease;
+    border-bottom: 2px solid black;
+}
+
+.img-news {
+    display: block;
+    width: 20%  !important;
+    float: left;
+    margin-right: 10px;
+}
+
+.inf-news {
+    width: 75%;
+    font-size: 14px;
+}
+
+.list-new p {
+    font-size: 11px;
+}
+
+.content-main {
+    display: block;
+    width: 74%;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: right;
+    background-color: floralwhite;
+}
+
+.content-main .content-info {
+    width: 100%;
+    display: inline-block;
+}
+
+.content-info .img-news{
+    padding: 15px;
+}
+
+.content-header, .content-author, .content-des {
+    margin: 5px;
+    display: block;
+    width: 67%;
+    float: right;
+}
+
+.content-header a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
